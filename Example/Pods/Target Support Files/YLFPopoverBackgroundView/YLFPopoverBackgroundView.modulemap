@@ -1,0 +1,6 @@
+framework module YLFPopoverBackgroundView {
+  umbrella header "YLFPopoverBackgroundView-umbrella.h"
+
+  export *
+  module * { export * }
+}

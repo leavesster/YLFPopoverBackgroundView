@@ -1,0 +1,6 @@
+framework module Pods_YLFPopoverBackgroundView_Example {
+  umbrella header "Pods-YLFPopoverBackgroundView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

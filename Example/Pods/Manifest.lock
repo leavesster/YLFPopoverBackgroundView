@@ -1,0 +1,16 @@
+PODS:
+  - YLFPopoverBackgroundView (0.1.0)
+
+DEPENDENCIES:
+  - YLFPopoverBackgroundView (from `../`)
+
+EXTERNAL SOURCES:
+  YLFPopoverBackgroundView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLFPopoverBackgroundView: ac4d43ac15da0bea44da02dc546d6f2a14a94b3e
+
+PODFILE CHECKSUM: dc1e026b43b97a9161c090be7e317c54a9d4ce21
+
+COCOAPODS: 1.5.3
