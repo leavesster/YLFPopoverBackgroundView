@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLFPopoverBackgroundView_Example' do
+  pod 'YLFPopoverBackgroundView', :path => '../'
+
+  target 'YLFPopoverBackgroundView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
