@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIImage+YLFCorner.h"
 #import "YLFPopoverBackgroundView.h"
 
 FOUNDATION_EXPORT double YLFPopoverBackgroundViewVersionNumber;

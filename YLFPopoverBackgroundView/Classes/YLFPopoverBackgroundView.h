@@ -11,7 +11,7 @@
 
 @property (nonatomic, assign) UIEdgeInsets contentViewInsets;
 @property (nonatomic, strong) UIImageView *backgroundImageV;
-@property (nonatomic, strong) UIImageView *arrowImageV;
+@property (nonatomic, strong) UIImage *arrowImage;
 @property (nonatomic, assign) CGFloat arrowOffset;
 @property (nonatomic, assign) BOOL wantsDefaultContentAppearance;
 

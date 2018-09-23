@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		05BCA505BA0BEACD4100744035191206 /* Pods-YLFPopoverBackgroundView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE41C8C6B07C34579FD5B47C6B94438 /* Pods-YLFPopoverBackgroundView_Example-dummy.m */; };
+		097F12B7FD6F4D6625188CEFF7956B79 /* YLFPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 829D9990E2BBF1B47DE0A9A859E88C46 /* YLFPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		123CC20AC18F71129560F6F3127D8396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		16AC2155C1B8F64E4935D7060DD27395 /* Pods-YLFPopoverBackgroundView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB92E732E0C6A5533662546644C1577 /* Pods-YLFPopoverBackgroundView_Tests-dummy.m */; };
-		2A17DCE5EAE6B594AB9E54AFD9597C95 /* YLFPopoverBackgroundView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 683575587EFFB8B343550F4C2619613E /* YLFPopoverBackgroundView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C365D1042CE659F77C6AFABC9A789DD /* YLFPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 854A2877F8B57555795363A5B228E5AA /* YLFPopoverBackgroundView.m */; };
-		3E4C504B614415E8253B2289022F5706 /* YLFPopoverBackgroundView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205C223512E8BCC5699F36AC15BAC96 /* YLFPopoverBackgroundView-dummy.m */; };
+		1B6FD1860D634485762DD9D5E76F7041 /* YLFPopoverBackgroundView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CC6E7917E7A8A4C30A445D10709907 /* YLFPopoverBackgroundView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F11E36FC6D15F4E47D2A017095E99D7 /* UIImage+YLFCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9A8C7D96B416952A5B1984E79F91B /* UIImage+YLFCorner.m */; };
 		52251BD0B317DFE2E13E3F52287E1592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6AE671106BAE6986D3087C405BDB5220 /* UIImage+YLFCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB194BAB16ED98859CED10C6F77A370 /* UIImage+YLFCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		781640B0514B4741EE7564D15D48B672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9647E29A836C7B761AEB494A4B73B7C3 /* Pods-YLFPopoverBackgroundView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB42CE22CDEE559B961D9845544AE76 /* Pods-YLFPopoverBackgroundView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1ECC4643813EE7A6FFFC0B527786668 /* YLFPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA988604B080602B80E7A3F0FB480A55 /* YLFPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6FE0E04A82A557E4987064DBA2C312 /* YLFPopoverBackgroundView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E7CC0F303A034239A671A1977D088 /* YLFPopoverBackgroundView-dummy.m */; };
 		F31B3816E43E258381EE6053D2EBEB8D /* Pods-YLFPopoverBackgroundView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4592908AAB2302142A66ED3D7CF558D4 /* Pods-YLFPopoverBackgroundView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFF6F858A12616E466AB9C93C34166B /* YLFPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C961556FEBCE88E102079B9C7ECF3E6D /* YLFPopoverBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A77604CAA5C3283F955D824789073E /* YLFPopoverBackgroundView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLFPopoverBackgroundView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0922B41E77B5EA6527513B6298B14082 /* Pods-YLFPopoverBackgroundView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0CE41C8C6B07C34579FD5B47C6B94438 /* Pods-YLFPopoverBackgroundView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLFPopoverBackgroundView_Example-dummy.m"; sourceTree = "<group>"; };
-		0F69E7B40ED882D373FA9EFA5DB282C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D3E7CC0F303A034239A671A1977D088 /* YLFPopoverBackgroundView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLFPopoverBackgroundView-dummy.m"; sourceTree = "<group>"; };
 		1BD2AE99625172F745B139506F483143 /* Pods-YLFPopoverBackgroundView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Example-resources.sh"; sourceTree = "<group>"; };
-		3205C223512E8BCC5699F36AC15BAC96 /* YLFPopoverBackgroundView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLFPopoverBackgroundView-dummy.m"; sourceTree = "<group>"; };
 		320D6DB87C69A508FDBCACC5BA14FBE8 /* Pods_YLFPopoverBackgroundView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLFPopoverBackgroundView_Example.framework; path = "Pods-YLFPopoverBackgroundView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C9C84F1BFF66BB78FB935598A2972A6 /* YLFPopoverBackgroundView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-prefix.pch"; sourceTree = "<group>"; };
 		3DB92E732E0C6A5533662546644C1577 /* Pods-YLFPopoverBackgroundView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLFPopoverBackgroundView_Tests-dummy.m"; sourceTree = "<group>"; };
 		4592908AAB2302142A66ED3D7CF558D4 /* Pods-YLFPopoverBackgroundView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLFPopoverBackgroundView_Example-umbrella.h"; sourceTree = "<group>"; };
 		45CBCCAFDEEBB42C92510508D3ECC9B8 /* Pods-YLFPopoverBackgroundView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLFPopoverBackgroundView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,26 +55,29 @@
 		4C58DCB15A272F9DA02AF01D38B32AD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FAEB6819138A07738757D16391B812 /* Pods-YLFPopoverBackgroundView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLFPopoverBackgroundView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5DBA5E700D009C2DA363B77C23F95F7B /* YLFPopoverBackgroundView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLFPopoverBackgroundView.modulemap; sourceTree = "<group>"; };
+		5EB194BAB16ED98859CED10C6F77A370 /* UIImage+YLFCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YLFCorner.h"; path = "YLFPopoverBackgroundView/Classes/UIImage+YLFCorner.h"; sourceTree = "<group>"; };
 		62CB731F5DFF3A53BA0D26A598E9E0D2 /* Pods-YLFPopoverBackgroundView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLFPopoverBackgroundView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		67084D252AB70E8DFD3A50CFECE4D498 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		683575587EFFB8B343550F4C2619613E /* YLFPopoverBackgroundView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-umbrella.h"; sourceTree = "<group>"; };
-		854A2877F8B57555795363A5B228E5AA /* YLFPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLFPopoverBackgroundView.m; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.m; sourceTree = "<group>"; };
-		862B2282068A31CF7D732A454A7BD234 /* YLFPopoverBackgroundView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLFPopoverBackgroundView.xcconfig; sourceTree = "<group>"; };
+		829D9990E2BBF1B47DE0A9A859E88C46 /* YLFPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLFPopoverBackgroundView.h; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.h; sourceTree = "<group>"; };
 		876FDE5EEE64DB07E0E53D34A27BDC85 /* Pods-YLFPopoverBackgroundView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLFPopoverBackgroundView_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLFPopoverBackgroundView.xcconfig; sourceTree = "<group>"; };
+		A6CC6E7917E7A8A4C30A445D10709907 /* YLFPopoverBackgroundView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-umbrella.h"; sourceTree = "<group>"; };
+		B45652932D8F67FE06060629255567F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08F538C8B8B6A4B710366FF5C979D7F /* YLFPopoverBackgroundView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLFPopoverBackgroundView.framework; path = YLFPopoverBackgroundView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C693E6ABE9108C741888082E531770C6 /* Pods-YLFPopoverBackgroundView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Tests-resources.sh"; sourceTree = "<group>"; };
 		C69DF602789185F619CD5E77EBBF3DD3 /* Pods-YLFPopoverBackgroundView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLFPopoverBackgroundView_Example.modulemap"; sourceTree = "<group>"; };
 		C6F302338057574CDB99C7AD430675B2 /* Pods-YLFPopoverBackgroundView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C961556FEBCE88E102079B9C7ECF3E6D /* YLFPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLFPopoverBackgroundView.m; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.m; sourceTree = "<group>"; };
+		CBA9A8C7D96B416952A5B1984E79F91B /* UIImage+YLFCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLFCorner.m"; path = "YLFPopoverBackgroundView/Classes/UIImage+YLFCorner.m"; sourceTree = "<group>"; };
 		CCB42CE22CDEE559B961D9845544AE76 /* Pods-YLFPopoverBackgroundView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLFPopoverBackgroundView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CCE7D3976F0A8356CDB9817F4D1146F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D15644DB3726AED773A548F65DB789C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D224FAB8DC29D52BA761D93799C1AFEC /* Pods-YLFPopoverBackgroundView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLFPopoverBackgroundView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D48A7B1C08B0F368787E6498ADC7486F /* Pods_YLFPopoverBackgroundView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLFPopoverBackgroundView_Tests.framework; path = "Pods-YLFPopoverBackgroundView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA988604B080602B80E7A3F0FB480A55 /* YLFPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLFPopoverBackgroundView.h; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.h; sourceTree = "<group>"; };
-		DE2B7ABC9CCC46BA7FEA80248497B781 /* YLFPopoverBackgroundView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLFPopoverBackgroundView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D75AA5945AD5C02CBB262EF04E84E2F8 /* YLFPopoverBackgroundView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLFPopoverBackgroundView.modulemap; sourceTree = "<group>"; };
 		E2ACF6220C7DE203ED77746E04724082 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3DAF1E11CFF61CFDA6B08EE0CFFBFE2 /* Pods-YLFPopoverBackgroundView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLFPopoverBackgroundView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF46E66E59BE51C494D97379D4228813 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F61A4EEE1F1B8D3BE6845F094B8DB2C9 /* YLFPopoverBackgroundView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +108,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15DD4E667FDEACE0B18312906FC71956 /* Pod */ = {
+		2B11F2AA5D05F61D04AEEC963DB9FF9C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FF46E66E59BE51C494D97379D4228813 /* LICENSE */,
-				0F69E7B40ED882D373FA9EFA5DB282C5 /* README.md */,
-				DE2B7ABC9CCC46BA7FEA80248497B781 /* YLFPopoverBackgroundView.podspec */,
+				D15644DB3726AED773A548F65DB789C5 /* LICENSE */,
+				CCE7D3976F0A8356CDB9817F4D1146F8 /* README.md */,
+				04A77604CAA5C3283F955D824789073E /* YLFPopoverBackgroundView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -153,23 +157,25 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F4B37A6AF32FF99D1F3C6904307EE589 /* Development Pods */,
+				BFC0AD819B11D8D412D91A76913C628B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E7E00F5D1F35FFFC449AE4F1107DB0C2 /* Products */,
 				7855A2FAED34312A445DD488B8FF755C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B82C617AA5D0BF9518DCE648E98E70DF /* YLFPopoverBackgroundView */ = {
+		9A6D7D42B7D78E7588651DD54C4B9D90 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA988604B080602B80E7A3F0FB480A55 /* YLFPopoverBackgroundView.h */,
-				854A2877F8B57555795363A5B228E5AA /* YLFPopoverBackgroundView.m */,
-				15DD4E667FDEACE0B18312906FC71956 /* Pod */,
-				FF9985A19C9113F2B855CE212257C941 /* Support Files */,
+				B45652932D8F67FE06060629255567F5 /* Info.plist */,
+				D75AA5945AD5C02CBB262EF04E84E2F8 /* YLFPopoverBackgroundView.modulemap */,
+				A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */,
+				0D3E7CC0F303A034239A671A1977D088 /* YLFPopoverBackgroundView-dummy.m */,
+				F61A4EEE1F1B8D3BE6845F094B8DB2C9 /* YLFPopoverBackgroundView-prefix.pch */,
+				A6CC6E7917E7A8A4C30A445D10709907 /* YLFPopoverBackgroundView-umbrella.h */,
 			);
-			name = YLFPopoverBackgroundView;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLFPopoverBackgroundView";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -178,6 +184,14 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC0AD819B11D8D412D91A76913C628B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F306DE1F429B5F38BDAF678E2D8C343E /* YLFPopoverBackgroundView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CE3F4E84EB4D151404D3532E8372C005 /* Pods-YLFPopoverBackgroundView_Tests */ = {
@@ -208,40 +222,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4B37A6AF32FF99D1F3C6904307EE589 /* Development Pods */ = {
+		F306DE1F429B5F38BDAF678E2D8C343E /* YLFPopoverBackgroundView */ = {
 			isa = PBXGroup;
 			children = (
-				B82C617AA5D0BF9518DCE648E98E70DF /* YLFPopoverBackgroundView */,
+				5EB194BAB16ED98859CED10C6F77A370 /* UIImage+YLFCorner.h */,
+				CBA9A8C7D96B416952A5B1984E79F91B /* UIImage+YLFCorner.m */,
+				829D9990E2BBF1B47DE0A9A859E88C46 /* YLFPopoverBackgroundView.h */,
+				C961556FEBCE88E102079B9C7ECF3E6D /* YLFPopoverBackgroundView.m */,
+				2B11F2AA5D05F61D04AEEC963DB9FF9C /* Pod */,
+				9A6D7D42B7D78E7588651DD54C4B9D90 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FF9985A19C9113F2B855CE212257C941 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				67084D252AB70E8DFD3A50CFECE4D498 /* Info.plist */,
-				5DBA5E700D009C2DA363B77C23F95F7B /* YLFPopoverBackgroundView.modulemap */,
-				862B2282068A31CF7D732A454A7BD234 /* YLFPopoverBackgroundView.xcconfig */,
-				3205C223512E8BCC5699F36AC15BAC96 /* YLFPopoverBackgroundView-dummy.m */,
-				3C9C84F1BFF66BB78FB935598A2972A6 /* YLFPopoverBackgroundView-prefix.pch */,
-				683575587EFFB8B343550F4C2619613E /* YLFPopoverBackgroundView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLFPopoverBackgroundView";
+			name = YLFPopoverBackgroundView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9ED84F770B38B2EF3BF6AD1EB17B262C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A17DCE5EAE6B594AB9E54AFD9597C95 /* YLFPopoverBackgroundView-umbrella.h in Headers */,
-				E1ECC4643813EE7A6FFFC0B527786668 /* YLFPopoverBackgroundView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD0081CAA55E0ABEF92A4BACF7FCED49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +252,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F31B3816E43E258381EE6053D2EBEB8D /* Pods-YLFPopoverBackgroundView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0817EA6189D3176F986CC1114F3D119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE671106BAE6986D3087C405BDB5220 /* UIImage+YLFCorner.h in Headers */,
+				1B6FD1860D634485762DD9D5E76F7041 /* YLFPopoverBackgroundView-umbrella.h in Headers */,
+				097F12B7FD6F4D6625188CEFF7956B79 /* YLFPopoverBackgroundView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +290,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009CF25CB71B264897EC83DC8471596C /* Build configuration list for PBXNativeTarget "YLFPopoverBackgroundView" */;
 			buildPhases = (
-				CBB687FA0A9DDEE00A66DC34994A2BF6 /* Sources */,
+				11CE77FF28003CB0B4ECA95B98256DBC /* Sources */,
 				E00B8F38C9F6A3422EC63AFA519D26B8 /* Frameworks */,
-				9ED84F770B38B2EF3BF6AD1EB17B262C /* Headers */,
+				C0817EA6189D3176F986CC1114F3D119 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,6 +350,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11CE77FF28003CB0B4ECA95B98256DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F11E36FC6D15F4E47D2A017095E99D7 /* UIImage+YLFCorner.m in Sources */,
+				AE6FE0E04A82A557E4987064DBA2C312 /* YLFPopoverBackgroundView-dummy.m in Sources */,
+				FCFF6F858A12616E466AB9C93C34166B /* YLFPopoverBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37C46FBF56A4840A202072773EA7DE66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,15 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				05BCA505BA0BEACD4100744035191206 /* Pods-YLFPopoverBackgroundView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBB687FA0A9DDEE00A66DC34994A2BF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E4C504B614415E8253B2289022F5706 /* YLFPopoverBackgroundView-dummy.m in Sources */,
-				2C365D1042CE659F77C6AFABC9A789DD /* YLFPopoverBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +429,7 @@
 		};
 		792074C01BDE10204560A02B4E68A392 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862B2282068A31CF7D732A454A7BD234 /* YLFPopoverBackgroundView.xcconfig */;
+			baseConfigurationReference = A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -640,7 +648,7 @@
 		};
 		CD173BDE9EF6B1139485A1F5264F7693 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862B2282068A31CF7D732A454A7BD234 /* YLFPopoverBackgroundView.xcconfig */;
+			baseConfigurationReference = A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

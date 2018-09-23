@@ -6,14 +6,19 @@
 //
 
 #import "YLFPopoverBackgroundView.h"
+#import "UIImage+YLFCorner.h"
 
 @implementation YLFCustomPopoverAppearance
+
+static CGFloat kCornerRadius = 15;
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        //TODO: defualt value
+        UIImage *backgroundImage = [[UIImage imageWithSize:CGSizeMake(100, 100) cornerRadius:kCornerRadius] resizableImageWithCapInsets:UIEdgeInsetsMake(kCornerRadius, kCornerRadius, kCornerRadius, kCornerRadius)];
+        _backgroundImageV = [[UIImageView alloc] initWithImage:backgroundImage];
+        _arrowImage = [UIImage imageNamed:@""];
         _wantsDefaultContentAppearance = YES;
     }
     return self;
@@ -39,12 +44,12 @@
 
 + (CGFloat)arrowHeight
 {
-    return CGRectGetHeight([self customAppearance].arrowImageV.bounds);
+    return [self customAppearance].arrowImage.size.height;
 }
 
 + (CGFloat)arrowBase
 {
-    return CGRectGetWidth([self customAppearance].arrowImageV.bounds);
+    return [self customAppearance].arrowImage.size.width;
 }
 
 #pragma mark - Class Property
@@ -89,7 +94,7 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
 - (void)setup
 {
     self.backgroundImageV = [[self class] customAppearance].backgroundImageV;
-    self.arrowImageV = [[self class] customAppearance].arrowImageV;
+    self.arrowImageV = [[UIImageView alloc] initWithImage:[[self class] customAppearance].arrowImage];
     self.arrowOffset = [[self class] customAppearance].arrowOffset;
     [self addSubview:self.backgroundImageV];
     [self addSubview:self.arrowImageV];
