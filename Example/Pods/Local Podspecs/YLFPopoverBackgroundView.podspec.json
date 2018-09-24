@@ -16,5 +16,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YLFPopoverBackgroundView/Classes/**/*"
+  "source_files": "YLFPopoverBackgroundView/Classes/**/*",
+  "resource_bundles": {
+    "YLFPopoverBackgroundView": [
+      "YLFPopoverBackgroundView/Assets/*.png"
+    ]
+  }
 }

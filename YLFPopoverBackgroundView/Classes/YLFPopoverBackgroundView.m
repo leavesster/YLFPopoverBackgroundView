@@ -18,7 +18,10 @@ static CGFloat kCornerRadius = 15;
     if (self) {
         UIImage *backgroundImage = [[UIImage imageWithSize:CGSizeMake(100, 100) cornerRadius:kCornerRadius] resizableImageWithCapInsets:UIEdgeInsetsMake(kCornerRadius, kCornerRadius, kCornerRadius, kCornerRadius)];
         _backgroundImageV = [[UIImageView alloc] initWithImage:backgroundImage];
-        _arrowImage = [UIImage imageNamed:@""];
+        NSBundle *bundle = [NSBundle bundleForClass:self.class];
+        NSURL *bundleURL = [[bundle resourceURL] URLByAppendingPathComponent:@"YLFPopoverBackgroundView.bundle"];
+        NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
+        _arrowImage = [UIImage imageNamed:@"arrow" inBundle:resourceBundle compatibleWithTraitCollection:nil];
         _wantsDefaultContentAppearance = YES;
     }
     return self;
@@ -124,6 +127,7 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
     switch (self.arrowDirection) {
         case UIPopoverArrowDirectionUp:
         {
+            _arrowImageV.transform = CGAffineTransformMakeScale(1, -1);  // flip vertically
             arrowRect = _arrowImageV.frame;
             arrowRect.origin.x = self.bounds.size.width / 2 - arrowRect.size.width / 2 + self.arrowOffset;
             arrowRect.origin.y = 0;
@@ -131,7 +135,6 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
         }
         case UIPopoverArrowDirectionDown:
         {
-            _arrowImageV.transform = CGAffineTransformMakeScale(1, -1);  // flip vertically
             arrowRect = _arrowImageV.frame;  // get frame after (!) transformation
             arrowRect.origin.x = self.bounds.size.width / 2 - arrowRect.size.width / 2 + self.arrowOffset;
             arrowRect.origin.y = self.bounds.size.height - arrowRect.size.height;
@@ -139,7 +142,7 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
         }
         case UIPopoverArrowDirectionLeft:
         {
-            _arrowImageV.transform = CGAffineTransformMakeRotation(-M_PI_2); // rotate counter clock-wise
+            _arrowImageV.transform = CGAffineTransformMakeRotation(M_PI_2); // rotate counter clock-wise
             arrowRect = _arrowImageV.frame;
             arrowRect.origin.x = 0;
             arrowRect.origin.y = self.bounds.size.height / 2 - arrowRect.size.height / 2 + self.arrowOffset;
@@ -149,7 +152,7 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
         }
         case UIPopoverArrowDirectionRight:
         {
-            _arrowImageV.transform = CGAffineTransformMakeRotation(M_PI_2);  // rotate clock-wise
+            _arrowImageV.transform = CGAffineTransformMakeRotation(-M_PI_2);  // rotate clock-wise
             arrowRect = _arrowImageV.frame;
             arrowRect.origin.x = self.bounds.size.width - arrowRect.size.width;
             arrowRect.origin.y = self.bounds.size.height / 2 - arrowRect.size.height / 2 + self.arrowOffset;

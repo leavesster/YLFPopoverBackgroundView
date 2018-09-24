@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLFPopoverBackgroundView: ac4d43ac15da0bea44da02dc546d6f2a14a94b3e
+  YLFPopoverBackgroundView: 4f2d52d87ed24d24632c85d0e308f9fcbddc421d
 
 PODFILE CHECKSUM: dc1e026b43b97a9161c090be7e317c54a9d4ce21
 

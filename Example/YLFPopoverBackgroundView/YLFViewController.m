@@ -8,9 +8,13 @@
 
 #import "YLFViewController.h"
 
-@interface YLFViewController ()
+@interface YLFViewController ()<UIPopoverPresentationControllerDelegate>
+
+@property (nonatomic, assign) NSInteger count;
 
 @end
+
+@import YLFPopoverBackgroundView;
 
 @implementation YLFViewController
 
@@ -18,12 +22,58 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:NSLocalizedString(@"Popover", nil) forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(popover:) forControlEvents:UIControlEventTouchUpInside];
+    [btn sizeToFit];
+    btn.backgroundColor = [UIColor orangeColor];
+    
+    [self.view addSubview:btn];
+    btn.center = self.view.center;
 }
 
-- (void)didReceiveMemoryWarning
+- (void)popover:(UIButton *)btn
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UIViewController *vc = [[UIViewController alloc] init];
+    [self showPopoverViewController:vc sourceView:btn];
 }
+
+
+#pragma mark - UIPopoverPresentationController & Delegate
+- (void)showPopoverViewController:(UIViewController *)vc sourceView:(UIView *)sourceView
+{
+    vc.preferredContentSize = CGSizeMake(100, 60);
+    vc.view.backgroundColor = [UIColor brownColor];
+    
+    vc.modalPresentationStyle = UIModalPresentationPopover;
+    UIPopoverPresentationController *present = vc.popoverPresentationController;
+    YLFCustomPopoverAppearance *appearance = YLFPopoverBackgroundView.customAppearance;
+    appearance.wantsDefaultContentAppearance = NO;
+    appearance.contentViewInsets = UIEdgeInsetsMake(5, 5, 5, 5);
+    vc.popoverPresentationController.popoverBackgroundViewClass = [YLFPopoverBackgroundView class];
+    present.permittedArrowDirections = 1 << (self.count % 4);
+    present.delegate = self;
+    present.sourceView = sourceView;
+    present.sourceRect = sourceView.bounds;
+    [self presentViewController:vc animated:YES completion:nil];
+    self.count ++;
+}
+
+- (void)prepareForPopoverPresentation:(UIPopoverPresentationController *)popoverPresentationController
+{
+    popoverPresentationController.backgroundColor = [UIColor orangeColor];
+    popoverPresentationController.containerView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.3];
+}
+
+- (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller
+{
+    return UIModalPresentationNone;
+}
+
+- (BOOL)popoverPresentationControllerShouldDismissPopover:(UIPopoverPresentationController *)popoverPresentationController
+{
+    return YES;
+}
+
 
 @end

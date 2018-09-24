@@ -8,18 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		05BCA505BA0BEACD4100744035191206 /* Pods-YLFPopoverBackgroundView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE41C8C6B07C34579FD5B47C6B94438 /* Pods-YLFPopoverBackgroundView_Example-dummy.m */; };
-		097F12B7FD6F4D6625188CEFF7956B79 /* YLFPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 829D9990E2BBF1B47DE0A9A859E88C46 /* YLFPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097F12B7FD6F4D6625188CEFF7956B79 /* YLFPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B03A187E97EE271A47EA90943AACE14 /* YLFPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		123CC20AC18F71129560F6F3127D8396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		16AC2155C1B8F64E4935D7060DD27395 /* Pods-YLFPopoverBackgroundView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB92E732E0C6A5533662546644C1577 /* Pods-YLFPopoverBackgroundView_Tests-dummy.m */; };
-		1B6FD1860D634485762DD9D5E76F7041 /* YLFPopoverBackgroundView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CC6E7917E7A8A4C30A445D10709907 /* YLFPopoverBackgroundView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F11E36FC6D15F4E47D2A017095E99D7 /* UIImage+YLFCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9A8C7D96B416952A5B1984E79F91B /* UIImage+YLFCorner.m */; };
+		1B6FD1860D634485762DD9D5E76F7041 /* YLFPopoverBackgroundView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A259B9C1734C9689314071DBD8A41BB /* YLFPopoverBackgroundView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F11E36FC6D15F4E47D2A017095E99D7 /* UIImage+YLFCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9F735FD663BFC5E4B7B3E0F53ACF3 /* UIImage+YLFCorner.m */; };
 		52251BD0B317DFE2E13E3F52287E1592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6AE671106BAE6986D3087C405BDB5220 /* UIImage+YLFCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB194BAB16ED98859CED10C6F77A370 /* UIImage+YLFCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624BDAB2042922BBEA479A822ECAE9EF /* YLFPopoverBackgroundView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75DC1108B57611BD3F55BF1C757FDC87 /* YLFPopoverBackgroundView.bundle */; };
+		6AE671106BAE6986D3087C405BDB5220 /* UIImage+YLFCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 40678EB3E89CBC7BA6543E7970FB4C77 /* UIImage+YLFCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706D11A6CF89DE196CCE3D4F4B8223BC /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF216A1C23D1E76A116A36C50B76DE5 /* arrow@2x.png */; };
 		781640B0514B4741EE7564D15D48B672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9647E29A836C7B761AEB494A4B73B7C3 /* Pods-YLFPopoverBackgroundView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB42CE22CDEE559B961D9845544AE76 /* Pods-YLFPopoverBackgroundView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE6FE0E04A82A557E4987064DBA2C312 /* YLFPopoverBackgroundView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E7CC0F303A034239A671A1977D088 /* YLFPopoverBackgroundView-dummy.m */; };
+		AE6FE0E04A82A557E4987064DBA2C312 /* YLFPopoverBackgroundView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B9DBDEE701410AF3DFD54A77AC2F60 /* YLFPopoverBackgroundView-dummy.m */; };
+		C054116AB36755D7F2886318FBE9E685 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A4608D81031206EC5B0FFC8D25A77B /* arrow@3x.png */; };
 		F31B3816E43E258381EE6053D2EBEB8D /* Pods-YLFPopoverBackgroundView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4592908AAB2302142A66ED3D7CF558D4 /* Pods-YLFPopoverBackgroundView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCFF6F858A12616E466AB9C93C34166B /* YLFPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C961556FEBCE88E102079B9C7ECF3E6D /* YLFPopoverBackgroundView.m */; };
+		FCFF6F858A12616E466AB9C93C34166B /* YLFPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE56AD91A66BCD1F13DF8CBFF3BA5C79 /* YLFPopoverBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B7CA8FA5ED0815238731B0D36308058C;
 			remoteInfo = "Pods-YLFPopoverBackgroundView_Example";
+		};
+		35C286357CEEFDC98A3A45A19A162391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8288212CD16F24E23DC6ACBF1198C0F;
+			remoteInfo = "YLFPopoverBackgroundView-YLFPopoverBackgroundView";
 		};
 		946A2DC1899175F629EF7E9A4390C291 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -40,44 +50,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A77604CAA5C3283F955D824789073E /* YLFPopoverBackgroundView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLFPopoverBackgroundView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0922B41E77B5EA6527513B6298B14082 /* Pods-YLFPopoverBackgroundView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0CE41C8C6B07C34579FD5B47C6B94438 /* Pods-YLFPopoverBackgroundView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLFPopoverBackgroundView_Example-dummy.m"; sourceTree = "<group>"; };
-		0D3E7CC0F303A034239A671A1977D088 /* YLFPopoverBackgroundView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLFPopoverBackgroundView-dummy.m"; sourceTree = "<group>"; };
+		0D34E77A719BDE78BF0D9D2D4E7C2DB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		16EFE56572F719F3FF602205F9731D72 /* YLFPopoverBackgroundView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-prefix.pch"; sourceTree = "<group>"; };
+		17A4608D81031206EC5B0FFC8D25A77B /* arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow@3x.png"; path = "YLFPopoverBackgroundView/Assets/arrow@3x.png"; sourceTree = "<group>"; };
 		1BD2AE99625172F745B139506F483143 /* Pods-YLFPopoverBackgroundView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Example-resources.sh"; sourceTree = "<group>"; };
-		320D6DB87C69A508FDBCACC5BA14FBE8 /* Pods_YLFPopoverBackgroundView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLFPopoverBackgroundView_Example.framework; path = "Pods-YLFPopoverBackgroundView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD11BDFFD4EAFC3A9B9C3674D367F7E /* Pods_YLFPopoverBackgroundView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLFPopoverBackgroundView_Tests.framework; path = "Pods-YLFPopoverBackgroundView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2FBFF81B85A2F14AE5D7FA2D092AC0 /* YLFPopoverBackgroundView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLFPopoverBackgroundView.modulemap; sourceTree = "<group>"; };
 		3DB92E732E0C6A5533662546644C1577 /* Pods-YLFPopoverBackgroundView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLFPopoverBackgroundView_Tests-dummy.m"; sourceTree = "<group>"; };
+		3F4E14DAD13A93D39C24FEE56E040C72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		40678EB3E89CBC7BA6543E7970FB4C77 /* UIImage+YLFCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YLFCorner.h"; path = "YLFPopoverBackgroundView/Classes/UIImage+YLFCorner.h"; sourceTree = "<group>"; };
 		4592908AAB2302142A66ED3D7CF558D4 /* Pods-YLFPopoverBackgroundView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLFPopoverBackgroundView_Example-umbrella.h"; sourceTree = "<group>"; };
 		45CBCCAFDEEBB42C92510508D3ECC9B8 /* Pods-YLFPopoverBackgroundView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLFPopoverBackgroundView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		47E0CC6726F9526CD92319E823C18B93 /* Pods-YLFPopoverBackgroundView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLFPopoverBackgroundView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		49F2AE1A3908B7FA08E8D9B63F934177 /* Pods-YLFPopoverBackgroundView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLFPopoverBackgroundView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B03A187E97EE271A47EA90943AACE14 /* YLFPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLFPopoverBackgroundView.h; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.h; sourceTree = "<group>"; };
 		4B454C1EE827707AE88DE1356934EC40 /* Pods-YLFPopoverBackgroundView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLFPopoverBackgroundView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4C58DCB15A272F9DA02AF01D38B32AD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50699359967726054F1DD5A0D6623ADA /* YLFPopoverBackgroundView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLFPopoverBackgroundView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51B9DBDEE701410AF3DFD54A77AC2F60 /* YLFPopoverBackgroundView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLFPopoverBackgroundView-dummy.m"; sourceTree = "<group>"; };
 		58FAEB6819138A07738757D16391B812 /* Pods-YLFPopoverBackgroundView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLFPopoverBackgroundView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5EB194BAB16ED98859CED10C6F77A370 /* UIImage+YLFCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YLFCorner.h"; path = "YLFPopoverBackgroundView/Classes/UIImage+YLFCorner.h"; sourceTree = "<group>"; };
 		62CB731F5DFF3A53BA0D26A598E9E0D2 /* Pods-YLFPopoverBackgroundView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLFPopoverBackgroundView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		829D9990E2BBF1B47DE0A9A859E88C46 /* YLFPopoverBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLFPopoverBackgroundView.h; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.h; sourceTree = "<group>"; };
+		67FD506A1542CB8FD58C9313D0667F4B /* Pods_YLFPopoverBackgroundView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLFPopoverBackgroundView_Example.framework; path = "Pods-YLFPopoverBackgroundView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF216A1C23D1E76A116A36C50B76DE5 /* arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "YLFPopoverBackgroundView/Assets/arrow@2x.png"; sourceTree = "<group>"; };
+		75DC1108B57611BD3F55BF1C757FDC87 /* YLFPopoverBackgroundView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YLFPopoverBackgroundView.bundle; path = "YLFPopoverBackgroundView-YLFPopoverBackgroundView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		876FDE5EEE64DB07E0E53D34A27BDC85 /* Pods-YLFPopoverBackgroundView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLFPopoverBackgroundView_Tests.modulemap"; sourceTree = "<group>"; };
+		8A259B9C1734C9689314071DBD8A41BB /* YLFPopoverBackgroundView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLFPopoverBackgroundView.xcconfig; sourceTree = "<group>"; };
-		A6CC6E7917E7A8A4C30A445D10709907 /* YLFPopoverBackgroundView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-umbrella.h"; sourceTree = "<group>"; };
-		B45652932D8F67FE06060629255567F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C08F538C8B8B6A4B710366FF5C979D7F /* YLFPopoverBackgroundView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLFPopoverBackgroundView.framework; path = YLFPopoverBackgroundView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95878DCCE3C39A2E9DB66BC39854C9C /* YLFPopoverBackgroundView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLFPopoverBackgroundView.framework; path = YLFPopoverBackgroundView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8809EC04AEFF7B294337CAAF608C3A /* ResourceBundle-YLFPopoverBackgroundView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YLFPopoverBackgroundView-Info.plist"; sourceTree = "<group>"; };
 		C693E6ABE9108C741888082E531770C6 /* Pods-YLFPopoverBackgroundView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Tests-resources.sh"; sourceTree = "<group>"; };
 		C69DF602789185F619CD5E77EBBF3DD3 /* Pods-YLFPopoverBackgroundView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLFPopoverBackgroundView_Example.modulemap"; sourceTree = "<group>"; };
 		C6F302338057574CDB99C7AD430675B2 /* Pods-YLFPopoverBackgroundView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLFPopoverBackgroundView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C961556FEBCE88E102079B9C7ECF3E6D /* YLFPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLFPopoverBackgroundView.m; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.m; sourceTree = "<group>"; };
-		CBA9A8C7D96B416952A5B1984E79F91B /* UIImage+YLFCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLFCorner.m"; path = "YLFPopoverBackgroundView/Classes/UIImage+YLFCorner.m"; sourceTree = "<group>"; };
 		CCB42CE22CDEE559B961D9845544AE76 /* Pods-YLFPopoverBackgroundView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLFPopoverBackgroundView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CCE7D3976F0A8356CDB9817F4D1146F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D15644DB3726AED773A548F65DB789C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D224FAB8DC29D52BA761D93799C1AFEC /* Pods-YLFPopoverBackgroundView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLFPopoverBackgroundView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D48A7B1C08B0F368787E6498ADC7486F /* Pods_YLFPopoverBackgroundView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLFPopoverBackgroundView_Tests.framework; path = "Pods-YLFPopoverBackgroundView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D75AA5945AD5C02CBB262EF04E84E2F8 /* YLFPopoverBackgroundView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLFPopoverBackgroundView.modulemap; sourceTree = "<group>"; };
+		D5D9F735FD663BFC5E4B7B3E0F53ACF3 /* UIImage+YLFCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLFCorner.m"; path = "YLFPopoverBackgroundView/Classes/UIImage+YLFCorner.m"; sourceTree = "<group>"; };
+		DE56AD91A66BCD1F13DF8CBFF3BA5C79 /* YLFPopoverBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLFPopoverBackgroundView.m; path = YLFPopoverBackgroundView/Classes/YLFPopoverBackgroundView.m; sourceTree = "<group>"; };
 		E2ACF6220C7DE203ED77746E04724082 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70B8BEA98FDA304D7AF641B6ED143C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC869E0E0708BA10324D80BCC2E3ACBF /* YLFPopoverBackgroundView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLFPopoverBackgroundView.xcconfig; sourceTree = "<group>"; };
 		F3DAF1E11CFF61CFDA6B08EE0CFFBFE2 /* Pods-YLFPopoverBackgroundView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLFPopoverBackgroundView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F61A4EEE1F1B8D3BE6845F094B8DB2C9 /* YLFPopoverBackgroundView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLFPopoverBackgroundView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CACA8AB8CA6529D5498F9300930B316B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E00B8F38C9F6A3422EC63AFA519D26B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,12 +129,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B11F2AA5D05F61D04AEEC963DB9FF9C /* Pod */ = {
+		0B759987461D4D138A8E1EDF04F3EB1D /* YLFPopoverBackgroundView */ = {
 			isa = PBXGroup;
 			children = (
-				D15644DB3726AED773A548F65DB789C5 /* LICENSE */,
-				CCE7D3976F0A8356CDB9817F4D1146F8 /* README.md */,
-				04A77604CAA5C3283F955D824789073E /* YLFPopoverBackgroundView.podspec */,
+				40678EB3E89CBC7BA6543E7970FB4C77 /* UIImage+YLFCorner.h */,
+				D5D9F735FD663BFC5E4B7B3E0F53ACF3 /* UIImage+YLFCorner.m */,
+				4B03A187E97EE271A47EA90943AACE14 /* YLFPopoverBackgroundView.h */,
+				DE56AD91A66BCD1F13DF8CBFF3BA5C79 /* YLFPopoverBackgroundView.m */,
+				49A9BE995191ABE740E287FC75743C76 /* Pod */,
+				2804E00F436B3014E12101DDF689C2F5 /* Resources */,
+				72750356E2782610429BF111B89FA10D /* Support Files */,
+			);
+			name = YLFPopoverBackgroundView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		18CB844270EB4E4254890273E5455E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FD506A1542CB8FD58C9313D0667F4B /* Pods_YLFPopoverBackgroundView_Example.framework */,
+				2FD11BDFFD4EAFC3A9B9C3674D367F7E /* Pods_YLFPopoverBackgroundView_Tests.framework */,
+				75DC1108B57611BD3F55BF1C757FDC87 /* YLFPopoverBackgroundView.bundle */,
+				A95878DCCE3C39A2E9DB66BC39854C9C /* YLFPopoverBackgroundView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2804E00F436B3014E12101DDF689C2F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FF216A1C23D1E76A116A36C50B76DE5 /* arrow@2x.png */,
+				17A4608D81031206EC5B0FFC8D25A77B /* arrow@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49A9BE995191ABE740E287FC75743C76 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E14DAD13A93D39C24FEE56E040C72 /* LICENSE */,
+				0D34E77A719BDE78BF0D9D2D4E7C2DB9 /* README.md */,
+				50699359967726054F1DD5A0D6623ADA /* YLFPopoverBackgroundView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -124,6 +180,21 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		72750356E2782610429BF111B89FA10D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E70B8BEA98FDA304D7AF641B6ED143C8 /* Info.plist */,
+				BA8809EC04AEFF7B294337CAAF608C3A /* ResourceBundle-YLFPopoverBackgroundView-Info.plist */,
+				3C2FBFF81B85A2F14AE5D7FA2D092AC0 /* YLFPopoverBackgroundView.modulemap */,
+				EC869E0E0708BA10324D80BCC2E3ACBF /* YLFPopoverBackgroundView.xcconfig */,
+				51B9DBDEE701410AF3DFD54A77AC2F60 /* YLFPopoverBackgroundView-dummy.m */,
+				16EFE56572F719F3FF602205F9731D72 /* YLFPopoverBackgroundView-prefix.pch */,
+				8A259B9C1734C9689314071DBD8A41BB /* YLFPopoverBackgroundView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLFPopoverBackgroundView";
 			sourceTree = "<group>";
 		};
 		7855A2FAED34312A445DD488B8FF755C /* Targets Support Files */ = {
@@ -157,25 +228,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BFC0AD819B11D8D412D91A76913C628B /* Development Pods */,
+				A979F91087A47B8BBAFD80C7F258608B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E7E00F5D1F35FFFC449AE4F1107DB0C2 /* Products */,
+				18CB844270EB4E4254890273E5455E05 /* Products */,
 				7855A2FAED34312A445DD488B8FF755C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9A6D7D42B7D78E7588651DD54C4B9D90 /* Support Files */ = {
+		A979F91087A47B8BBAFD80C7F258608B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B45652932D8F67FE06060629255567F5 /* Info.plist */,
-				D75AA5945AD5C02CBB262EF04E84E2F8 /* YLFPopoverBackgroundView.modulemap */,
-				A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */,
-				0D3E7CC0F303A034239A671A1977D088 /* YLFPopoverBackgroundView-dummy.m */,
-				F61A4EEE1F1B8D3BE6845F094B8DB2C9 /* YLFPopoverBackgroundView-prefix.pch */,
-				A6CC6E7917E7A8A4C30A445D10709907 /* YLFPopoverBackgroundView-umbrella.h */,
+				0B759987461D4D138A8E1EDF04F3EB1D /* YLFPopoverBackgroundView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLFPopoverBackgroundView";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -184,14 +249,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BFC0AD819B11D8D412D91A76913C628B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F306DE1F429B5F38BDAF678E2D8C343E /* YLFPopoverBackgroundView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CE3F4E84EB4D151404D3532E8372C005 /* Pods-YLFPopoverBackgroundView_Tests */ = {
@@ -210,30 +267,6 @@
 			);
 			name = "Pods-YLFPopoverBackgroundView_Tests";
 			path = "Target Support Files/Pods-YLFPopoverBackgroundView_Tests";
-			sourceTree = "<group>";
-		};
-		E7E00F5D1F35FFFC449AE4F1107DB0C2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				320D6DB87C69A508FDBCACC5BA14FBE8 /* Pods_YLFPopoverBackgroundView_Example.framework */,
-				D48A7B1C08B0F368787E6498ADC7486F /* Pods_YLFPopoverBackgroundView_Tests.framework */,
-				C08F538C8B8B6A4B710366FF5C979D7F /* YLFPopoverBackgroundView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F306DE1F429B5F38BDAF678E2D8C343E /* YLFPopoverBackgroundView */ = {
-			isa = PBXGroup;
-			children = (
-				5EB194BAB16ED98859CED10C6F77A370 /* UIImage+YLFCorner.h */,
-				CBA9A8C7D96B416952A5B1984E79F91B /* UIImage+YLFCorner.m */,
-				829D9990E2BBF1B47DE0A9A859E88C46 /* YLFPopoverBackgroundView.h */,
-				C961556FEBCE88E102079B9C7ECF3E6D /* YLFPopoverBackgroundView.m */,
-				2B11F2AA5D05F61D04AEEC963DB9FF9C /* Pod */,
-				9A6D7D42B7D78E7588651DD54C4B9D90 /* Support Files */,
-			);
-			name = YLFPopoverBackgroundView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +316,7 @@
 			);
 			name = "Pods-YLFPopoverBackgroundView_Example";
 			productName = "Pods-YLFPopoverBackgroundView_Example";
-			productReference = 320D6DB87C69A508FDBCACC5BA14FBE8 /* Pods_YLFPopoverBackgroundView_Example.framework */;
+			productReference = 67FD506A1542CB8FD58C9313D0667F4B /* Pods_YLFPopoverBackgroundView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DCF66BF35DF31C7993C00946C25941D1 /* YLFPopoverBackgroundView */ = {
@@ -292,15 +325,17 @@
 			buildPhases = (
 				11CE77FF28003CB0B4ECA95B98256DBC /* Sources */,
 				E00B8F38C9F6A3422EC63AFA519D26B8 /* Frameworks */,
+				FB85C01EF2C6CFB82D24E9279D8B52A7 /* Resources */,
 				C0817EA6189D3176F986CC1114F3D119 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1AD5FD090D809A2D632804EDDDA2FD06 /* PBXTargetDependency */,
 			);
 			name = YLFPopoverBackgroundView;
 			productName = YLFPopoverBackgroundView;
-			productReference = C08F538C8B8B6A4B710366FF5C979D7F /* YLFPopoverBackgroundView.framework */;
+			productReference = A95878DCCE3C39A2E9DB66BC39854C9C /* YLFPopoverBackgroundView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E43C339B4A79BCF03CC81768EB3C47AB /* Pods-YLFPopoverBackgroundView_Tests */ = {
@@ -318,8 +353,25 @@
 			);
 			name = "Pods-YLFPopoverBackgroundView_Tests";
 			productName = "Pods-YLFPopoverBackgroundView_Tests";
-			productReference = D48A7B1C08B0F368787E6498ADC7486F /* Pods_YLFPopoverBackgroundView_Tests.framework */;
+			productReference = 2FD11BDFFD4EAFC3A9B9C3674D367F7E /* Pods_YLFPopoverBackgroundView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		F8288212CD16F24E23DC6ACBF1198C0F /* YLFPopoverBackgroundView-YLFPopoverBackgroundView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2793FA8BD928805ED4D716826B9A665E /* Build configuration list for PBXNativeTarget "YLFPopoverBackgroundView-YLFPopoverBackgroundView" */;
+			buildPhases = (
+				1B386431F1C8884F548D04EF31CA93F0 /* Sources */,
+				CACA8AB8CA6529D5498F9300930B316B /* Frameworks */,
+				D747FB07F88C56FBC2D220D0768EE72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YLFPopoverBackgroundView-YLFPopoverBackgroundView";
+			productName = "YLFPopoverBackgroundView-YLFPopoverBackgroundView";
+			productReference = 75DC1108B57611BD3F55BF1C757FDC87 /* YLFPopoverBackgroundView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -338,16 +390,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E7E00F5D1F35FFFC449AE4F1107DB0C2 /* Products */;
+			productRefGroup = 18CB844270EB4E4254890273E5455E05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B7CA8FA5ED0815238731B0D36308058C /* Pods-YLFPopoverBackgroundView_Example */,
 				E43C339B4A79BCF03CC81768EB3C47AB /* Pods-YLFPopoverBackgroundView_Tests */,
 				DCF66BF35DF31C7993C00946C25941D1 /* YLFPopoverBackgroundView */,
+				F8288212CD16F24E23DC6ACBF1198C0F /* YLFPopoverBackgroundView-YLFPopoverBackgroundView */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D747FB07F88C56FBC2D220D0768EE72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706D11A6CF89DE196CCE3D4F4B8223BC /* arrow@2x.png in Resources */,
+				C054116AB36755D7F2886318FBE9E685 /* arrow@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB85C01EF2C6CFB82D24E9279D8B52A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624BDAB2042922BBEA479A822ECAE9EF /* YLFPopoverBackgroundView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11CE77FF28003CB0B4ECA95B98256DBC /* Sources */ = {
@@ -357,6 +430,13 @@
 				3F11E36FC6D15F4E47D2A017095E99D7 /* UIImage+YLFCorner.m in Sources */,
 				AE6FE0E04A82A557E4987064DBA2C312 /* YLFPopoverBackgroundView-dummy.m in Sources */,
 				FCFF6F858A12616E466AB9C93C34166B /* YLFPopoverBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B386431F1C8884F548D04EF31CA93F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +459,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1AD5FD090D809A2D632804EDDDA2FD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YLFPopoverBackgroundView-YLFPopoverBackgroundView";
+			target = F8288212CD16F24E23DC6ACBF1198C0F /* YLFPopoverBackgroundView-YLFPopoverBackgroundView */;
+			targetProxy = 35C286357CEEFDC98A3A45A19A162391 /* PBXContainerItemProxy */;
+		};
 		1DE4FF463C0B485D5A73EB172AF25ABD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YLFPopoverBackgroundView;
@@ -394,6 +480,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		11084A2F48EAB5195C94D3FA67B6E6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC869E0E0708BA10324D80BCC2E3ACBF /* YLFPopoverBackgroundView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLFPopoverBackgroundView";
+				INFOPLIST_FILE = "Target Support Files/YLFPopoverBackgroundView/ResourceBundle-YLFPopoverBackgroundView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YLFPopoverBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4606C8B146E4F133B4C06248A77866C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC869E0E0708BA10324D80BCC2E3ACBF /* YLFPopoverBackgroundView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YLFPopoverBackgroundView";
+				INFOPLIST_FILE = "Target Support Files/YLFPopoverBackgroundView/ResourceBundle-YLFPopoverBackgroundView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YLFPopoverBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		4F7F58FDABA411801F31854B8D39CDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49F2AE1A3908B7FA08E8D9B63F934177 /* Pods-YLFPopoverBackgroundView_Tests.debug.xcconfig */;
@@ -429,7 +547,7 @@
 		};
 		792074C01BDE10204560A02B4E68A392 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */;
+			baseConfigurationReference = EC869E0E0708BA10324D80BCC2E3ACBF /* YLFPopoverBackgroundView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -648,7 +766,7 @@
 		};
 		CD173BDE9EF6B1139485A1F5264F7693 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4FBE7479AE9F87996FC78D93C59E5B9 /* YLFPopoverBackgroundView.xcconfig */;
+			baseConfigurationReference = EC869E0E0708BA10324D80BCC2E3ACBF /* YLFPopoverBackgroundView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -718,6 +836,15 @@
 			buildConfigurations = (
 				792074C01BDE10204560A02B4E68A392 /* Debug */,
 				CD173BDE9EF6B1139485A1F5264F7693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2793FA8BD928805ED4D716826B9A665E /* Build configuration list for PBXNativeTarget "YLFPopoverBackgroundView-YLFPopoverBackgroundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4606C8B146E4F133B4C06248A77866C6 /* Debug */,
+				11084A2F48EAB5195C94D3FA67B6E6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
