@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+For UIPopoverPresentationController, you need iOS 8+.
+But for UIPopoverController, you only need iOS 5+.
+
 ## Installation
 
 YLFPopoverBackgroundView is available through [CocoaPods](https://cocoapods.org). To install
