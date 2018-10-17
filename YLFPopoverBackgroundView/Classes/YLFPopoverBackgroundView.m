@@ -191,3 +191,13 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
 }
 
 @end
+
+
+@implementation YLFPopoverNoShadowBackgroundView
+
+- (void)_updateShadow
+{
+    // fix not call wantsDefaultContentAppearance
+}
+
+@end

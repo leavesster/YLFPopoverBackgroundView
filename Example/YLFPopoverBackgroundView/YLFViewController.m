@@ -56,7 +56,7 @@
     UIImage *arrowImage = [UIImage imageNamed:@"arrow" inBundle:resourceBundle compatibleWithTraitCollection:nil];
     appearance.arrowImage = [arrowImage redrawImageWithColor:[UIColor brownColor]];
 //    appearance.contentViewInsets = UIEdgeInsetsMake(5, 5, 5, 5);
-    vc.popoverPresentationController.popoverBackgroundViewClass = [YLFPopoverBackgroundView class];
+    vc.popoverPresentationController.popoverBackgroundViewClass = [YLFPopoverNoShadowBackgroundView class];
     present.permittedArrowDirections = 1 << (self.count % 4);
     present.delegate = self;
     present.sourceView = sourceView;

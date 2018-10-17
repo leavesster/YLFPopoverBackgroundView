@@ -22,3 +22,6 @@
 @property (class, nonatomic, copy) YLFCustomPopoverAppearance *customAppearance;
 
 @end
+
+@interface YLFPopoverNoShadowBackgroundView : YLFPopoverBackgroundView
+@end
