@@ -12,18 +12,24 @@
 
 static CGFloat kCornerRadius = 15;
 
-- (instancetype)init
+- (UIImageView *)backgroundImageV
 {
-    self = [super init];
-    if (self) {
+    if (!_backgroundImageV) {
         UIImage *backgroundImage = [[UIImage imageWithSize:CGSizeMake(100, 100) cornerRadius:kCornerRadius] resizableImageWithCapInsets:UIEdgeInsetsMake(kCornerRadius, kCornerRadius, kCornerRadius, kCornerRadius)];
         _backgroundImageV = [[UIImageView alloc] initWithImage:backgroundImage];
+    }
+    return _backgroundImageV;
+}
+
+- (UIImage *)arrowImage
+{
+    if (!_arrowImage) {
         NSBundle *bundle = [NSBundle bundleForClass:self.class];
         NSURL *bundleURL = [[bundle resourceURL] URLByAppendingPathComponent:@"YLFPopoverBackgroundView.bundle"];
         NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
         _arrowImage = [UIImage imageNamed:@"arrow" inBundle:resourceBundle compatibleWithTraitCollection:nil];
     }
-    return self;
+    return _arrowImage;
 }
 
 @end
