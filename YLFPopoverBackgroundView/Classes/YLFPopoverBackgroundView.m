@@ -22,7 +22,6 @@ static CGFloat kCornerRadius = 15;
         NSURL *bundleURL = [[bundle resourceURL] URLByAppendingPathComponent:@"YLFPopoverBackgroundView.bundle"];
         NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
         _arrowImage = [UIImage imageNamed:@"arrow" inBundle:resourceBundle compatibleWithTraitCollection:nil];
-        _wantsDefaultContentAppearance = YES;
     }
     return self;
 }

@@ -13,7 +13,6 @@
 @property (nonatomic, strong) UIImageView *backgroundImageV;
 @property (nonatomic, strong) UIImage *arrowImage;
 @property (nonatomic, assign) CGFloat arrowOffset;
-@property (nonatomic, assign) BOOL wantsDefaultContentAppearance;
 
 @end
 
