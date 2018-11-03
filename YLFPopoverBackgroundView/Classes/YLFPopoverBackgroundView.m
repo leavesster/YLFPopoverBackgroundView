@@ -77,12 +77,6 @@ static YLFCustomPopoverAppearance *_customAppearance = nil;
     return _customAppearance;
 }
 
-+ (BOOL)wantsDefaultContentAppearance
-{
-    //FIXME: apple didn't call this method
-    return self.customAppearance.wantsDefaultContentAppearance;
-}
-
 #pragma mark - INITIALIZER
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder

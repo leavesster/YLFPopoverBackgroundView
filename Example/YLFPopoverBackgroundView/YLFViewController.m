@@ -48,7 +48,6 @@
     vc.modalPresentationStyle = UIModalPresentationPopover;
     UIPopoverPresentationController *present = vc.popoverPresentationController;
     YLFCustomPopoverAppearance *appearance = YLFPopoverBackgroundView.customAppearance;
-    appearance.wantsDefaultContentAppearance = NO;
     
     NSBundle *bundle = [NSBundle bundleForClass:[YLFPopoverBackgroundView class]];
     NSURL *bundleURL = [[bundle resourceURL] URLByAppendingPathComponent:@"YLFPopoverBackgroundView.bundle"];
